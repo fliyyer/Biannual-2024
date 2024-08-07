@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #000;
+  color: #ffffff;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.annual {
+  position: relative;
+  margin: 0 auto;
+  height: 768px;
+  width: 1024px;
+  background-image: url(../img/ray-white.png);
+}
+
+h1 {
+  margin: 0;
+  font-size: 126px;
+  font-weight: normal;
+}
+
+.logo {
+  width: 583px;
+  position: absolute;
+}
+
+.info {
+  position: absolute;
+  left: 490px;
+  top: 228px;
+  height: 300px;
+  //background:#2e2e2e;
+}
+
+.end {
+  position: absolute;
+  height: 400px;
+  width: 1px;
+  //background:red;
+  left: 840px;
+}
+
+.sites {
+  position: absolute;
+  top: 120px;
+  height: 200px;
+  width: 600px;
+}
+
+.site {
+  display: inline-block;
+  margin-right: 10px;
+  color: #555;
+}
+
+.award-info {
+  margin: 0px;
+}
+.site img {
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.category {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 21px;
+  display: block;
+  background: #fff;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.raywhite {
+  color: #fff;
+  font-size: 36px;
+  padding: 5px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.office-name {
+  color: #fff;
+  font-size: 36px;
+  padding: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gradient {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  background: #0d0d0d; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #0d0d0d 1%,
+    #010101 31%,
+    #232323 76%,
+    #000000 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(1%, #0d0d0d),
+    color-stop(31%, #010101),
+    color-stop(76%, #232323),
+    color-stop(100%, #000000)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #0d0d0d 1%,
+    #010101 31%,
+    #232323 76%,
+    #000000 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #0d0d0d 1%,
+    #010101 31%,
+    #232323 76%,
+    #000000 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #0d0d0d 1%,
+    #010101 31%,
+    #232323 76%,
+    #000000 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    #0d0d0d 1%,
+    #010101 31%,
+    #232323 76%,
+    #000000 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+#nav {
+  text-align: center;
+}
+#slider {
+  width: 400px;
+  margin: 30px auto;
+  background-color: #222;
+  display: inline-block;
+}
+
+#slider,
+#slider a {
+  background-image: none;
+  border: 1px solid #555;
+}
+#slider a {
+  background-color: #444;
+}
